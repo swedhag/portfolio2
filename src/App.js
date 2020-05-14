@@ -10,7 +10,7 @@ class App extends Component {
     return (
         <div className="demo-big-content">
             <Layout className="mdl-layout mdl-js-layout mdl-layout--fixed-header" style={{}}>
-                <Header style={{width: '95%', marginLeft:'auto', marginRight:'auto', marginTop: '1%'}} className="header-color" title={< Link style={{textDecoration:'none', color:'white', fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif", fontWeight: 'bold'}} to ="/">
+                <Header style={{width: '95%', marginLeft:'auto', marginRight:'auto', marginTop: '1%'}} className="header-color" title={< Link style={{textDecoration:'none', color:'white', fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif", fontWeight: 'bold'}} to ="/portfolio2">
                 {/*<i className="fa fa-code" id="header-fa" aria-hidden="true"/>*/}
                  Portfolio - CARL SVEDHAG</Link> } scroll>
                     <Navigation className="mdl-layout--large-screen-only">

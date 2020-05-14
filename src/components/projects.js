@@ -12,15 +12,33 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
             <div className="projects-grid">
-                {/*Project 1 - Students Groupings*/}
+                {/*Project 1 - Values filtering*/}
                 <Project 
-                    projectPicture = "url(https://i.ibb.co/gTdVsfD/infovis-pic.png) center / cover"
-                    projectTitle = "Interactive data visualization"
-                    projectDescription = "Application made for interactive filtering into project groups for the course DH2321 Information Visualization. The application was created using JavaScript and D3.js."
-                    gitHub = "https://github.com/swedhag/dh2321-project1"
-                    demo = "https://swedhag.github.io/dh2321-project1/"
+                    projectPicture = "url(https://raw.githubusercontent.com/swedhag/portfolio2/master/public/infovis-pic.png) center / cover"
+                    projectTitle = "World Values Survey - Interactive Visualization"
+                    projectDescription = "For this project, I was interested in investigating the political, but also cultural climate of the countries included in the WVS (World Values Survey). A good dataset, spanning the 4 latest documented waves, or time periods, of the WVS was the one regarding active memberships in voluntary organizations. The project visualizes multivariate data, for which an appropriate visualization method is the parallel coordinate system. The interactive visualization supports both filtering by brushing and by using the search bar. Detailed information about each country is made available upon clicking a country's name. Developed with JavaScript and D3.js."
+                    gitHub = "https://github.com/swedhag/dh2321-project2"
+                    demo = "https://swedhag.github.io/dh2321-project2/"
                 />
-              </div>
+
+                {/*Group project - jobVis*/}
+                <Project 
+                    projectPicture = "url(https://i.ibb.co/y0cCkns/jobVis.png) center / cover"
+                    projectTitle = "jobVis - Geography of Employment Ads"
+                    projectDescription = "My team and I, who had been asked to develop and design a fully functioning analysis tool for the sales department at Blocket Jobb, made this service in the spring of 2019. The intended use of the tool is to map the quantity of employment ads posted on Blocket Jobb to its corresponding geographical location. Filtering of this data can be done through line of businesses and sub-categories of lines - as well as by trends in employment ads over time. Two modes of comparison is made available by the analysis tool. Users can either filter the data by ads posted over a time span, or by posted ad derivatives over a time span. Developed with JavaScript and D3.js."
+                    gitHub = "https://github.com/fstal/jobVis"
+                    demo = "https://fstal.github.io/jobVis/"
+                />
+                {/*Group project - Cloth animation*/}
+                <Project 
+                    projectPicture = "url(https://i.ibb.co/FXYw41y/piggy.png) center / cover"
+                    //projectPicture = "url(https://i.ibb.co/xmtzBRp/portfolio-Piggy.png) center / cover"
+                    projectTitle = "Pigman - A Cloth Cape Simulation"
+                    projectDescription = "For this project, my friend and I were interested in developing a real-time cloth simulator. Besides just letting the cloth hang loose, we also wanted to enable cloth interactions with other forces than the gravitational. Hence, we implemented a collision detection algorithm for the cloth as well. Finally, our ideas materialized in the development of this cloth cape, attached to the back of our super hero, Pigman. The physical model used for the virtual cloth is known as the Mass Spring Model. Collision detection was accomplished through prohibiting invisible vertices in the cloth from passing through solid virtual geometry. This project was developed in Unity and coded with C#."
+                    gitHub = "https://github.com/fstal/jobVis"
+                    demo = "https://streamable.com/2394m"
+                />
+            </div>
                 )
         }
         else if (this.state.activeTab === 1) {
@@ -66,7 +84,7 @@ class Projects extends Component {
         return (
             <div className="category-tabs">
                 <Tabs style={{backgroundColor: 'white', marginLeft:'auto', marginRight:'auto', marginTop: '1%', display:'block', width: '95%', borderRadius: '10px', borderBottom:'0px'}} activeTab={this.state.activeTab} onChange={(tabId => this.setState({ activeTab: tabId }))} ripple>
-                    <Tab style={{fontWeight:'bold'}}>Visualization</Tab>
+                    <Tab style={{fontWeight:'bold'}}>Visualization & Computer Graphics</Tab>
                     <Tab style={{fontWeight:'bold'}}>Web Development</Tab>
                     <Tab style={{fontWeight:'bold'}}>UX Design</Tab>
                 </Tabs>
