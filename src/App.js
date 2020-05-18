@@ -21,10 +21,10 @@ class App extends Component {
                 </Header>
                 <Drawer className="mdl-layout--small-screen-only" title={< Link style={{ textDecoration: 'none', color: 'black' }} to="/"> MY PORTFOLIO </Link>}>
                     <Navigation>
-                        <Link style={{fontWeight:'bold'}} to="/resume">Resume</Link>
+                        {/*<Link style={{fontWeight:'bold'}} to="/resume">Resume</Link>*/}
                         <Link style={{fontWeight:'bold'}} to="/projects">Projects</Link>
-                        <Link style={{fontWeight:'bold'}} to="/aboutme">About Me</Link>
-                        <Link style={{fontWeight:'bold'}} to="/contact">Contact</Link>
+                        <Link style={{fontWeight:'bold'}} to="/resume">About Me</Link>
+                        {/*<Link style={{fontWeight:'bold'}} to="/contact">Contact</Link>*/}
                     </Navigation>
                 </Drawer>
                 <Content>
