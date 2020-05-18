@@ -9,7 +9,7 @@ class LandingPage extends Component {
                     <Cell col={12}>
                         <img src="https://librari-41dab.firebaseapp.com/static/media/calle.27c30049.png" alt="avatar" className="avatar-img" />
                         <div className="banner-text">
-                        <h1> Visualization | Web Development | UX Design </h1>
+                        <h1> Visualization | Media Technology | Web </h1>
                             {/*<hr />
                             <p> HTML/CSS | JavaScript | Bootstrap | D3 | React | Python | SQL</p>
                             <div className="social-links">

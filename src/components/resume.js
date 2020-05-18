@@ -13,14 +13,15 @@ class Resume extends Component {
                             <h2 style={{ paddingTop: '3%', paddingLeft:"16px", marginBottom: '5%', display: 'block', float:'left' }}>Carl Svedhag</h2>
                             {/*<h4 style={{ color: 'grey', paddingLeft:"16px" }}>Programmer</h4>*/}
                             <hr style={{ borderTop: '1px dotted grey', width: '50%', marginLeft:"16px"}} />
-                            <p style={{ paddingLeft:"16px", width: '80%' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempor facilisis scelerisque. Donec ornare molestie dui in semper. Pellentesque rhoncus nibh et tincidunt pharetra. Fusce aliquam, dolor ac tempus maximus, ligula velit sodales eros, a eleifend neque risus a lorem. Maecenas gravida ex ut aliquet maximus. Integer dictum nisl ac lorem ultrices ultricies.
+                            <p style={{ paddingLeft:"16px", width: '80%' }}>
+                                Hi! I'm Carl, or Calle, a 24 year old master student of the Interactive Media Technology programme at KTH Royal Institute of Technology in Stockholm, Sweden. At the end of my bachelor's programme, I was largely specialized in software development with interaction design and UX in the primary focus. Later on at my master's programme, I've been further specializing in the fundamentals of computer visualization, with concepts such as shading, rasterization, raytracing, vector fields being highly prevalent. I hope you find the contents of this portfolio helpful! If by chance you are in need of contacting me, I've listed my contact information below. 
                             </p>
                             <hr style={{ borderTop: '1px dotted grey', width: '50%', marginLeft:"16px"}} />
                             <List>
                                 <ListItem style={{paddingLeft: '20px'}}>
                                     <ListItemContent style={{fontSize: '20px'}}>
                                         <i className="fa fa-location-arrow" style={{display:'block', float:'left', marginRight: '15px'}} aria-hidden="true"/>
-                                        <p style={{display:'block', float:'left'}}>Brinellvägen 8, 114 28 Stockholm</p>
+                                        <p style={{display:'block', float:'left'}}>Kratsbodavägen 50 C, 168 65 Bromma</p>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
@@ -31,8 +32,10 @@ class Resume extends Component {
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '20px' }}>
+                                        <a href="https://www.linkedin.com/in/carl-svedhag-2a4934109/" rel="noopener noreferrer" target="_blank" style={{color: 'black'}}>
                                             <i className="fa fa-linkedin-square" style={{display:'block', float:'left', marginRight: '15px'}} aria-hidden="true" />
                                             <p style={{display:'block', float:'left'}}>Carl Svedhag</p>
+                                        </a>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
@@ -81,23 +84,23 @@ class Resume extends Component {
                         <h2 style={{ fontSize: '36px', paddingLeft:"16px", marginBottom: '1%'  }}>Skills</h2>
                         <Skill
                             skill="C++"
-                            progress={70}
+                            progress={50}
                         />
                         <Skill
                             skill="Python"
-                            progress={70}
+                            progress={50}
                         />
                         <Skill
                             skill="Java"
-                            progress={40}
+                            progress={65}
                         />
                         <Skill
                             skill="HTML/CSS"
-                            progress={100}
+                            progress={65}
                         />
                         <Skill
                             skill="JavaScript"
-                            progress={75}
+                            progress={65}
                         />
                         <Skill
                             skill="React.js"
@@ -106,6 +109,14 @@ class Resume extends Component {
                         <Skill
                             skill="D3.JS"
                             progress={50}
+                        />                        
+                        <Skill
+                            skill="C#"
+                            progress={45}
+                        />
+                        <Skill
+                            skill="PHP"
+                            progress={30}
                         />
                     </Cell>
                 </Grid>
